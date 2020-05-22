@@ -5,6 +5,6 @@ public class PizzaMain {
         Margherita margherita = new Margherita();
         BaconDecorator baconDecorator = new BaconDecorator(margherita);
         HamDecorator hamDecorator = new HamDecorator(baconDecorator);
-        System.out.println("The cost is" + hamDecorator.getCost());
+        System.out.println("The cost is " + hamDecorator.getCost());
     }
 }
